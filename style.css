@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "Ink Free";
+	src: local("Ink Free"), url(./font/Inkfree.ttf);
+}
+
+* {
+	background-color: #1f1e1e;
+}
+
+h1 {
+	font-family: Ink Free;
+	color: azure;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+}
+
+.img img {
+	background: linear-gradient(#fff, #fff) padding-box,
+		linear-gradient(60deg, #2109f3, #b91d1d) border-box;
+	border: 10px solid transparent;
+	border-radius: 50px;
+}
